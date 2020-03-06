@@ -6,28 +6,17 @@
 	<artifactId>mssc-beer-inventory-service-aev</artifactId>
 
 	<parent>
-		<groupId>guru.springframework</groupId>
-		<artifactId>mssc-brewery-bom-aev</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
+        <groupId>com.github.sfg-beer-works</groupId>
+        <artifactId>sfg-brewery-bom</artifactId>
+        <version>1.0.7</version>
+    </parent>
 
 	<name>mssc-beer-inventory-service-aev</name>
 
 	<description>MSSC Beer Inventory Service</description>
 
 	<dependencies>
-		<dependency>
-			<groupId>javax.xml.bind</groupId>
-			<artifactId>jaxb-api</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.sun.xml.bind</groupId>
-			<artifactId>jaxb-core</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.sun.xml.bind</groupId>
-			<artifactId>jaxb-impl</artifactId>
-		</dependency>
+		
 	</dependencies>
 
 </project>
